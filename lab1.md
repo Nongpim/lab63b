@@ -25,7 +25,7 @@
    * 2.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์ 
    * 2.2 โฟลเดอร์จะแสดงตัวอย่างโปรแกรม 9 โปรแกรม
    
-      * ![image](https://github.com/Nongpim/picture/blob/main/4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+         ![image](https://github.com/Nongpim/picture/blob/main/4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
     
       * 2.2.1 ซึ่งในการทดลองนี้จะให้ใช้โปรแกรมตัวอย่างที่1 พิมพ์คำสั่ง cd 01_Serial-Monitor
       * 2.2.2 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม โดยโปรแกรมนี้ มี 15 บรรทัด ซึ่งประกอบไปด้วย 2 ส่วน
