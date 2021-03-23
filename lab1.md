@@ -19,7 +19,8 @@
 
 ## วิธีการทำการทดลอง
 1. นำไมโครคอนโทรเลอร์ไปต่ออุปกรณ์ USB to Serial แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
-![image](https://github.com/Nongpim/picture/blob/main/1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)        ![image](https://github.com/Nongpim/picture/blob/main/2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+![image](https://github.com/Nongpim/picture/blob/main/1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg) 
+![image](https://github.com/Nongpim/picture/blob/main/2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 2. ดูตัวอย่างโปรแกรมที่จะเขียนในโฟลเดอร์ pattani 
    * 2.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์ 
    * 2.2 โฟลเดอร์จะแสดงตัวอย่างโปรแกรม 9 โปรแกรม
