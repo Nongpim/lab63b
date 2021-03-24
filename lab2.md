@@ -9,6 +9,7 @@
 2. อุปกรณ์ USB to Serial
 3. CPU
 4. เสาอากาศสำหรับไวไฟ
+5. ตัวโปรแกรมค้นหาไวไฟ
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. 02 run example 2 https://youtu.be/yBjab0UNuB8
