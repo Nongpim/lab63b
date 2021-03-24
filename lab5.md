@@ -22,13 +22,12 @@
       * 2.1.2 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม เนื่องจากโปรแกรมนี้ต้องเชื่อมกับไวไฟ ดังนั้นต้องใส่ชื่อ wifi และ password ก่อน ซึ่งประกอบไปด้วย 2 ส่วน คือ 
          * 1. Setup เป็นการ connect กับไวไฟที่เราใส่ชื่อไว้ตอนแรก และ setup webserver โดยให้แสดงผลเป็น Hello cnt โดย cnt จะบวก 1 ขึ้นเรื่อยๆ
          * 2. Loop
-        ![image](https://github.com/Nongpim/picture/blob/main/2.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+        ![image](https://github.com/Nongpim/picture/blob/main/5.0%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.png)
 
 3. อัปโหลดโปรแกรม 05_Wifi-Web-Server โดยพิมพ์คำสั่ง pio run -t upload
     * 3.1 ในขณะที่รันเพื่อให้ไมโครคอนโทรเลอร์รับโปรแกรมใหม่เข้าไป เราจะต้องกดปุ่มให้โหลด(ปุ่มสีดำ) แล้วกดปุ่มreset(ปุ่มสีแดง) เมื่อโปรแกรมโหลดเข้าไปในคอมพิวเตอร์ตัวจิ๋วนี้แล้ว
 4. เมื่อโปรแกรมโหลดเสร็จแล้วจะขึ้นคำว่า SUCCESS ซึ่งต่อไปเราจะใช้คำสั่ง (pio device monitor) แล้วดูผลลัพธ์ที่แสดงผลใน monitor โดยจะขึ้น ip address
 
-![image](https://github.com/Nongpim/picture/blob/main/2.2%20%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)       ![image](https://github.com/Nongpim/picture/blob/main/2.3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 5. ให้ copy ip address ไปที่บราวเซอร์ในการทดสอบ
 
 ## การบันทึกผลการทดลอง
