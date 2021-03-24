@@ -13,29 +13,40 @@
 6. ตัวเซนเซอร์แสง
 
 ## ศึกษาข้อมูลเบื้องต้น
-1. 04 run example 4 https://youtu.be/nFqoZT26U5k
+1. 04 run example 4 : https://youtu.be/nFqoZT26U5k
 2. src code ของโปรแกรมอินพุทสัญญาณดิจิทัล(04_Input-Port) : https://github.com/choompol-boonmee/lab63b/blob/master/examples/04_Input-Port/src/main.cpp
 
 ## วิธีการทำการทดลอง
 1. นำอแดปเตอร์ที่มีการต่อกับ LED ไปต่อกับอุปกรณ์ USB to Serial 
-* ใส่รูปภาพ
 2. นำตัวไมโครคอนโทรเลอร์ไปต่อเข้ากับพอร์ท แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
-* ใส่รูปภาพ
+
+![image](https://github.com/Nongpim/picture/blob/main/4.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
 3. ดูตัวอย่างโปรแกรมที่จะเขียนในโฟลเดอร์ pattani
     * 3.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์
       * 3.1.1 ซึ่งในการทดลองนี้จะให้ใช้โปรแกรมตัวอย่างที่ 4 พิมพ์คำสั่ง cd 04_Input-Port
       * 3.1.2 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม ซึ่งประกอบไปด้วย 2 ส่วน
-      * ใส่รูปภาพ src ของจาน
+      * ![image](https://github.com/Nongpim/picture/blob/main/4.0%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.png)
+      
   ซึ่ง src code ของโปรแกรมนี้ ได้เซตพอร์ท 0 คือ พอร์ท input และพอร์ท 2 คือ พอร์ท output ซึ่งเมื่อเราอ่านข้อมูล เราจะอ่านข้อมูลจากพอร์ท 0 โดยให้เป็นข้อมูลดิจิทัล(ค่า 0 1) และจะแสดงผลว่าอ่านได้เท่าไหร่โดยถ้าเป็น 1 จะเป็นค่า low ที่พอร์ท 2(ไฟจะดับ) และถ้าเป็น 0 จะเป็นค่า high ที่พอร์ท 2(ไฟจะติด)
+
+![image](https://github.com/Nongpim/picture/blob/main/4.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    ![image](https://github.com/Nongpim/picture/blob/main/4.4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
 4. อัปโหลดโปรแกรม 04_Input-Port โดยพิมพ์คำสั่ง pio run -t upload
     * 4.1 ในขณะที่รันเพื่อให้ไมโครคอนโทรเลอร์รับโปรแกรมใหม่เข้าไป เราจะต้องกดปุ่มให้โหลด(ปุ่มสีดำ) แล้วกดปุ่มreset(ปุ่มสีแดง) เมื่อโปรแกรมโหลดเข้าไปในคอมพิวเตอร์ตัวจิ๋วนี้แล้ว
 5. เมื่อโปรแกรมโหลดเสร็จแล้วจะขึ้นคำว่า SUCCESS ซึ่งต่อไปเราจะใช้คำสั่ง (pio device monitor) แล้วดูผลลัพธ์ที่แสดงผลใน monitor 
+
+![image](https://github.com/Nongpim/picture/blob/main/4.2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+![image](https://github.com/Nongpim/picture/blob/main/4.3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
 6. ดูที่สายไฟเส้นสีขาว(พอร์ท0)โดยจิ้มที่เส้นสีดำ(0V low)
 7. ดูที่สายไฟเส้นสีขาว(พอร์ท0)โดยจิ้มที่เส้นแดง(5V high)
 8. กดปุ่มสีดำ(เป็น 0 ไฟจะติด)และปล่อยปุ่มสีดำ
 9. ต่อตัวเซนเซอร์กับ CPU ตามภาพ
 10. นำ input(เส้นสีขาว) ต่อกับสัญญาณเซนเซอร์
 11. ลองเอานิ้วไปเปิดหน้าเซนเซอร์ กับ เอานิ้วไปปิดหน้าเซนเซอร์ และสังเกตหลอดไฟ LED
+
+![image](https://github.com/Nongpim/picture/blob/main/4.6%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    ![image](https://github.com/Nongpim/picture/blob/main/4.7%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 ## การบันทึกผลการทดลอง
 จากใช้คำสั่ง pio device monitor จะทำให้เราทราบว่า
