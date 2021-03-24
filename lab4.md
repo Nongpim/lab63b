@@ -20,7 +20,7 @@
 1. นำอแดปเตอร์ที่มีการต่อกับ LED ไปต่อกับอุปกรณ์ USB to Serial 
 2. นำตัวไมโครคอนโทรเลอร์ไปต่อเข้ากับพอร์ท แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
 
-   ![image](https://github.com/Nongpim/picture/blob/main/4.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+      ![image](https://github.com/Nongpim/picture/blob/main/4.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 3. ดูตัวอย่างโปรแกรมที่จะเขียนในโฟลเดอร์ pattani
     * 3.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์
