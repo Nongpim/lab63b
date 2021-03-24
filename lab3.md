@@ -31,14 +31,14 @@
     * 3.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์
       * 3.1.1 ซึ่งในการทดลองนี้จะให้ใช้โปรแกรมตัวอย่างที่ 3 พิมพ์คำสั่ง cd 03_Output-Port
       * 3.1.2 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม ซึ่งประกอบไปด้วย 2 ส่วน
-      * ![image](https://github.com/Nongpim/picture/blob/main/3.0%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.png)
+         
+         * ![image](https://github.com/Nongpim/picture/blob/main/3.0%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.png)
+  
   ซึ่ง src code ของโปรแกรมนี้ ได้เซตพอร์ท 0 คือ พอร์ท output และมีคำสั่งวนลูป ทุกๆ 500ms โดยจะนับ cnt ไปเรื่อยๆ โดยเมื่อ cnt เป็นเลขคู่ให้เป็น OFF และเมื่อ cnt เป็นเลขคี่ให้เป็น ON
 4. อัปโหลดโปรแกรม 03_Output-Port โดยพิมพ์คำสั่ง pio run -t upload
     * 4.1 ในขณะที่รันเพื่อให้ไมโครคอนโทรเลอร์รับโปรแกรมใหม่เข้าไป เราจะต้องกดปุ่มให้โหลด(ปุ่มสีดำ) แล้วกดปุ่มreset(ปุ่มสีแดง) เมื่อโปรแกรมโหลดเข้าไปในคอมพิวเตอร์ตัวจิ๋วนี้แล้ว
 5. เมื่อโปรแกรมโหลดเสร็จแล้วจะขึ้นคำว่า SUCCESS ซึ่งต่อไปเราจะใช้คำสั่ง (pio device monitor) แล้วดูผลลัพธ์ที่แสดงผลใน monitor 
-![image](https://github.com/Nongpim/picture/blob/main/3.4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
-
-![image](https://github.com/Nongpim/picture/blob/main/3.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+![image](https://github.com/Nongpim/picture/blob/main/3.4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    ![image](https://github.com/Nongpim/picture/blob/main/3.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 6. สังเกตที่หลอดไฟ LED
     * 6.1 OFF ไฟจะดับ
@@ -55,7 +55,7 @@
 จากใช้คำสั่ง pio device monitor จะทำให้เราทราบว่า
 1. ผลลัพธ์จะแสดงผลในหน้าจอ monitor ซึ่งจะเห็นได้ว่า monitor จะแสดงคำสั่ง ON OFF ขึ้นมาทุกๆ 500 ms ตาม src code ที่เราเขียนเข้าไปในโปรแกรม และเมื่อสังเกตที่หลอดไฟ LED ที่พอร์ท 0 หลอดไฟก็จะสว่างหรือดับตามคำสั่ง ON OFF เช่นกัน
 
-![image](https://github.com/Nongpim/picture/blob/main/3.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+   ![image](https://github.com/Nongpim/picture/blob/main/3.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 2. เมื่อนำตัวไมโครคอนโทรเลอร์ที่ลงโปรแกรมแล้วมาประยุกต์ต่อเข้ากับตัวรีเลย์ จะเห็นว่าเมื่อต่อกับขั้วชาร์ตไปแล้ว ตัวรีเลย์จะมีการเปิดปิดทันที โดยสังเกตจากการได้ยินเสียงหน้าสัมผัสของสวิตซ์ไฟ
 
