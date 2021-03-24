@@ -20,7 +20,7 @@
 1. นำอแดปเตอร์ที่มีการต่อกับ LED ไปต่อกับอุปกรณ์ USB to Serial 
 2. นำตัวไมโครคอนโทรเลอร์ไปต่อเข้ากับพอร์ท แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
 
-![image](https://github.com/Nongpim/picture/blob/main/4.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+   ![image](https://github.com/Nongpim/picture/blob/main/4.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 3. ดูตัวอย่างโปรแกรมที่จะเขียนในโฟลเดอร์ pattani
     * 3.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์
@@ -36,8 +36,8 @@
     * 4.1 ในขณะที่รันเพื่อให้ไมโครคอนโทรเลอร์รับโปรแกรมใหม่เข้าไป เราจะต้องกดปุ่มให้โหลด(ปุ่มสีดำ) แล้วกดปุ่มreset(ปุ่มสีแดง) เมื่อโปรแกรมโหลดเข้าไปในคอมพิวเตอร์ตัวจิ๋วนี้แล้ว
 5. เมื่อโปรแกรมโหลดเสร็จแล้วจะขึ้นคำว่า SUCCESS ซึ่งต่อไปเราจะใช้คำสั่ง (pio device monitor) แล้วดูผลลัพธ์ที่แสดงผลใน monitor 
 
-![image](https://github.com/Nongpim/picture/blob/main/4.2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
-![image](https://github.com/Nongpim/picture/blob/main/4.3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+   ![image](https://github.com/Nongpim/picture/blob/main/4.2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+   ![image](https://github.com/Nongpim/picture/blob/main/4.3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 6. ดูที่สายไฟเส้นสีขาว(พอร์ท0)โดยจิ้มที่เส้นสีดำ(0V low)
 7. ดูที่สายไฟเส้นสีขาว(พอร์ท0)โดยจิ้มที่เส้นแดง(5V high)
@@ -46,7 +46,7 @@
 10. นำ input(เส้นสีขาว) ต่อกับสัญญาณเซนเซอร์
 11. ลองเอานิ้วไปเปิดหน้าเซนเซอร์ กับ เอานิ้วไปปิดหน้าเซนเซอร์ และสังเกตหลอดไฟ LED
 
-![image](https://github.com/Nongpim/picture/blob/main/4.6%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    ![image](https://github.com/Nongpim/picture/blob/main/4.7%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+   ![image](https://github.com/Nongpim/picture/blob/main/4.6%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    ![image](https://github.com/Nongpim/picture/blob/main/4.7%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 ## การบันทึกผลการทดลอง
 จากใช้คำสั่ง pio device monitor จะทำให้เราทราบว่า
