@@ -20,10 +20,15 @@
 
 ## วิธีการทำการทดลอง
 1. นำอแดปเตอร์ที่มีการต่อกับ LED ไปต่อกับอุปกรณ์ USB to Serial 
+
 ![image](https://github.com/Nongpim/picture/blob/main/3.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
 ![image](https://github.com/Nongpim/picture/blob/main/3.2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
 2. นำตัวไมโครคอนโทรเลอร์ไปต่อเข้ากับพอร์ท แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
+
 ![image](https://github.com/Nongpim/picture/blob/main/3.3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
 3. ดูตัวอย่างโปรแกรมที่จะเขียนในโฟลเดอร์ pattani
     * 3.1 พิมพ์คำสั่ง cd pattani เพื่อที่จะเข้าไปยังโฟลเดอร์
       * 3.1.1 ซึ่งในการทดลองนี้จะให้ใช้โปรแกรมตัวอย่างที่ 3 พิมพ์คำสั่ง cd 03_Output-Port
