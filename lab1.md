@@ -16,6 +16,7 @@
 2. ความรู้เกี่ยวกับ ESP-01 microcontroller : https://docs.platformio.org/en/latest/boards/espressif8266/esp01_1m.html
 3. ความรู้เกี่ยวกับ platformio : https://platformio.org/
 4. ความรู้เกี่ยวกับ iotset1 : https://youtu.be/9aF0upI9Gic
+5. src code ของโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์ (01_Serial-Monitor) : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
 
 ## วิธีการทำการทดลอง
 1. นำไมโครคอนโทรเลอร์ไปต่ออุปกรณ์ USB to Serial แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
