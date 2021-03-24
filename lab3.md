@@ -38,7 +38,9 @@
 4. อัปโหลดโปรแกรม 03_Output-Port โดยพิมพ์คำสั่ง pio run -t upload
     * 4.1 ในขณะที่รันเพื่อให้ไมโครคอนโทรเลอร์รับโปรแกรมใหม่เข้าไป เราจะต้องกดปุ่มให้โหลด(ปุ่มสีดำ) แล้วกดปุ่มreset(ปุ่มสีแดง) เมื่อโปรแกรมโหลดเข้าไปในคอมพิวเตอร์ตัวจิ๋วนี้แล้ว
 5. เมื่อโปรแกรมโหลดเสร็จแล้วจะขึ้นคำว่า SUCCESS ซึ่งต่อไปเราจะใช้คำสั่ง (pio device monitor) แล้วดูผลลัพธ์ที่แสดงผลใน monitor 
-![image](https://github.com/Nongpim/picture/blob/main/3.4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    ![image](https://github.com/Nongpim/picture/blob/main/3.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+![image](https://github.com/Nongpim/picture/blob/main/3.4%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)    
+
+![image](https://github.com/Nongpim/picture/blob/main/3.5%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
 
 6. สังเกตที่หลอดไฟ LED
     * 6.1 OFF ไฟจะดับ
