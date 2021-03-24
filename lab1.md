@@ -10,7 +10,7 @@
 2. อุปกรณ์ USB to Serial
 3. CPU
 4. เสาอากาศสำหรับไวไฟ
-
+5. ตัวโปรแกรมเพื่อรันบนไมโครคอนโทรเลอร์
 ## ศึกษาข้อมูลเบื้องต้น
 1. 01 run example 1 : https://youtu.be/NLIUsWLEpmg
 2. ความรู้เกี่ยวกับ ESP-01 microcontroller : https://docs.platformio.org/en/latest/boards/espressif8266/esp01_1m.html
