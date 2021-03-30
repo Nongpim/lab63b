@@ -53,12 +53,13 @@ void setup(void){
 void loop(void){
   server.handleClient();
   
-  int val = digitalRead(0);
-	Serial.printf("======= read %d\n", val);
-	if(val==1) {
-		digitalWrite(2, LOW);
-	} else {
+	if (server.on)
+	{
 		digitalWrite(2, HIGH);
+	} 
+	else 
+	{
+		digitalWrite(2, LOW);
 	}
 	delay(100);
 	
