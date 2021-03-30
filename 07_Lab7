@@ -43,7 +43,6 @@ void setup(void){
 		server.send(404, "ERR_CONNECTION_REFUSED");
 	});
 
-
 	server.begin();
 	Serial.println("HTTP server started");
 }
