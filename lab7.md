@@ -9,14 +9,14 @@
 3. อแดปเตอร์ที่ต่อสายพอร์ท 0(สีขาว) กับ 2 (สีเหลือง)
 4. หลอดไฟ LED
 5. CPU
-6. ตัวโปรแกรมที่เขียนขึ้นมาเอง(ตัวโปรแกรมที่7)
+6. ตัวโปรแกรมที่เขียนขึ้นมาเอง(07_Lab7)
  
 ## ศึกษาข้อมูลเบื้องต้น
-1. ตัวอย่าง src code ของการทดลองที่ 1-6 : https://youtu.be/T26DVHePlTs
-2. src code ของโปรแกรมที่เขียนขึ้นมาเอง : https://github.com/choompol-boonmee/lab63b/blob/master/examples/06_Wifi-AP-Web-Server/src/main.cpp
+1. ตัวอย่าง src code ของการทดลองที่ 1-6 : https://github.com/choompol-boonmee/lab63b/tree/master/examples
+2. src code ของโปรแกรมที่เขียนขึ้นมาเอง(07_Lab7) : https://github.com/Nongpim/lab63b/blob/main/07_Lab7
 
 ## วิธีการทำการทดลอง
-1. เขียนโปรแกรมที่จะนำไปรันบนไมโครคอนโทรเลอร์(โปรแกรมที่7)แล้วตั้งชื่อไฟล์ว่า 07_Lab7 โดย src code จะอยู่ที่
+1. เขียนโปรแกรมที่จะนำไปรันบนไมโครคอนโทรเลอร์(โปรแกรมที่7)แล้วตั้งชื่อไฟล์ว่า 07_Lab7 โดย src code จะอยู่ที่ https://github.com/Nongpim/lab63b/blob/main/07_Lab7
 2. นำไมโครคอนโทรเลอร์ไปต่ออุปกรณ์ USB to Serial แล้วเปิด command prompt เพื่อเขียนโปรแกรมเข้าไปในไมโครคอนโทรเลอร์
 3. พิมพ์คำสั่ง cd 07_Lab7 ในหน้า command prompt
     * 3.1 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม ซึ่งประกอบไปด้วย 2 ส่วน
