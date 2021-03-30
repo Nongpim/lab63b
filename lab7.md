@@ -22,7 +22,7 @@
     * 3.1 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม ซึ่งประกอบไปด้วย 3 ส่วน
       * 3.1.1 ส่วนแรก : ส่วนประกาศตัวแปร
       
-      * ![image](https://github.com/Nongpim/picture/blob/main/7.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+      * ![image](https://github.com/Nongpim/picture/blob/main/7.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B9%86.jpg)
 
       * 3.1.2 ส่วนที่สอง : ส่วน Setup
       
