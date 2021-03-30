@@ -21,8 +21,17 @@
 3. พิมพ์คำสั่ง cd 07_Lab7 ในหน้า command prompt
     * 3.1 พิมพ์คำสั่ง vi src/main.cpp จะแสดงโค้ดของโปรแกรม ซึ่งประกอบไปด้วย 3 ส่วน
       * 3.1.1 ส่วนแรก : ส่วนประกาศตัวแปร
+      
+      * ![image](https://github.com/Nongpim/picture/blob/main/7.1%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+
       * 3.1.2 ส่วนที่สอง : ส่วน Setup
+      
+      * ![image](https://github.com/Nongpim/picture/blob/main/7.2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+      
       * 3.1.3 ส่วนที่สาม : ส่วน Loop
+      
+      * ![image](https://github.com/Nongpim/picture/blob/main/7.3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.jpg)
+      
         * และ จาก src code ข้างต้น แสดงให้เห็นว่า ESP 01 มีไวไฟในตัวเอง โดยจะกำหนดชื่อ wifi และ password ก่อน ที่จะปล่อยให้เครื่องอื่น connect และมีการสร้าง IPAdress,gateway,subnet และเตรียมเว็บเซิร์ฟเวอร์
 4. อัปโหลดโปรแกรม 07_Lab7 โดยพิมพ์คำสั่ง pio run -t upload
     * 4.1 ในขณะที่รันเพื่อให้ไมโครคอนโทรเลอร์รับโปรแกรมใหม่เข้าไป เราจะต้องกดปุ่มให้โหลด(ปุ่มสีดำ) แล้วกดปุ่มreset(ปุ่มสีแดง) เมื่อโปรแกรมโหลดเข้าไปในคอมพิวเตอร์ตัวจิ๋วนี้แล้ว
